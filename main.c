@@ -12,10 +12,10 @@ void increment_hour(struct time *time);
 
 int main( )
 {
-    struct time now={0,0,55};
+    struct time now={0,59,55};
     while (1){
         increment_hour(&now);
-        printf("%d:%d:%d\n",now.hours,now.minutes,now.seconds);
+        printf("%02d:%02d:%02d\n",now.hours,now.minutes,now.seconds);
         sleep(1);
     }
 }
