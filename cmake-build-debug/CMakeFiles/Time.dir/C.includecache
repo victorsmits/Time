@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/victorsmits/Dropbox/ECAM/BAC3/Electronique numérique/Programmation C/C/Time/main.c
+stdio.h
+-
+hdf5.h
+-
+unistd.h
+-
+
